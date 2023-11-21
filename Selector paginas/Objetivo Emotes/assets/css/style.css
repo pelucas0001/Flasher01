@@ -1,0 +1,86 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+:root {
+  --bg-dark: rgb(245, 242, 242);
+  --bg-secondary-dark: rgb(255, 255, 255);
+  --bg-hightlight: rgb(239, 28, 74);
+  style: "background-color: rgba(0, 0, 0, 0.5);"
+}
+
+.list-images img {
+  width: 150px;
+  background-color: rgb(207, 207, 207); /* Color de fondo del área de overflow */
+  }
+  
+  .list-images {
+  overflow-y: auto;
+  
+  height: 600px;
+  margin-top: 40px;
+  
+}
+#user-input {
+  width: 60%;
+  background-color: var(--bg-dark);
+  border: 3px solid rgba(5, 250, 25, 0.651);
+  border-left: 10px;
+  border-top: 10px;
+  border-right: 10px;
+  padding: 12px;
+  outline: none;
+  color: #000000;
+  font-weight: bold;
+  text-align:center;
+  margin-top: 210px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+  
+  #user-input::placeholder {
+  letter-spacing: normal;
+  }
+  
+  .selected {
+  border: 5px solid rgb(48, 241, 0);
+    background-image: ('assets\imgs\skin\palomita.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+
+  
+  
+  .swal-text {
+  color: rgb(0, 17, 255) !important;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: lighter;
+  }
+  
+  
+  #userIP {
+  font-size: 40px;
+  color: #020202;
+  text-align: right;
+  display: block;
+  padding: 6 0px;
+  }
+  
+  .buttonid {
+    border-radius: 10%;
+    background-color: rgb(248, 232, 0);
+    color: rgb(0, 0, 0);
+    width: 170px;
+    height: 40px;
+    border: none;
+    font-size: 25px;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(100%);
+    z-index: ; /* Esto asegurará que el botón esté por encima de todos los demás elementos */
+  }
+  .loader {
+    /* Estilos para el cargador */
+  }
